@@ -1,74 +1,27 @@
 .layout-post{
-  margin-top: 53px;
   .container{
-    max-width: 680px;
+    max-width: 800px;
   }
-  .post-banner{
-    position: relative;
-    padding-top: 260px;
-    overflow: hidden;
-    div.banner-background{
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 110%;
-      height: 110%;
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: auto 100%;
-      transform: translate(-5%, -5%);
-      filter: blur(3px);
+  .post-title{
+    h1{
+      margin-bottom: 0;
     }
-    div.banner-text{
-      display: flex;
-      align-items: center;
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      text-align: center;
-      background: rgba(0, 0, 0, 0.5);
-      >div{
-        flex: 1;
-        margin: 0 auto;
-        margin-bottom: 10px;
-        color: #FFF;
-        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-        h1, h4{
-          margin: 0;
-          line-height: 1.2;
-        }
-      }
+    span{
+      color: #999;
     }
   }
-  .post-demo{
-    display: flex;
-    justify-content: center;
-    margin-top: 72px;
-    h3{
+  .post-meta{
+    margin: 20px 0;
+    padding: 15px;
+    color: #999;
+    background: #F8F8F8;
+    p{
       margin: 0;
-      padding: 18px 15px;
-      color: #666;
-      font-weight: bold;
-      border-top: 3px solid #ECECEC;
-      border-bottom: 3px solid #ECECEC;
-      a{
-        display: block;
-        max-width: 320px;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-      }
-      img{
-        display: block;
-        width: 120px;
-      }
+      font-size: 14px;
     }
   }
   .post-content{
-    margin-top: 72px;
-    font-size: 16px;
+    margin-top: 50px;
     line-height: 2;
     color: #404040;
     h2{
@@ -82,9 +35,9 @@
     >blockquote{
       margin: 0;
       margin-bottom: 20px;
-      padding: 15px;
-      color: #999;
-      background: #F8F8F8;
+      padding: 0 15px;
+      color: #666;
+      border-left: 5px solid #F3F3F3;
       p{
         margin: 0;
       }
@@ -116,44 +69,6 @@
     .content-image{
       margin:50px auto;
       text-align: center;
-    }
-  }
-  .post-footer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    list-style: none;
-    padding: 20px 0;
-    .ending-prev{
-      left: 0;
-      div.hidden-xs{
-        text-align: left;
-      }
-    }
-    .ending-next{
-      right: 0;
-      div.hidden-xs{
-        text-align: right;
-      }
-    }
-    @media (max-width: 767px){
-      a.ending-nav{ width: 50px; }
-    }
-  }
-}
-@media (max-width: 767px){
-  .post-container{
-    .container-header{
-      text-align: center;
-      h1{
-        margin: 20px 0 0 0;
-        font-size:24px;
-      }
-      h2{
-        color: #333;
-        font-size:16px;
-        font-weight: normal;
-      }
     }
   }
 }

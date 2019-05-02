@@ -1,14 +1,44 @@
+@import '~assets/token.styl'
 .footer{
-  color: #999;
-  font-size: 13px;
+  color: #333;
+  font-size: 14px;
   .footer-wrapper{
     display: flex;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    padding: 10px 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
     border-top: 1px solid #F3F3F3;
-    a.footer-link{
-      margin-left: 10px; 
+    h5{
+      margin: 0;
+      margin-bottom: 10px;
+      font-size: 14px;
+      color: #333;
+    }
+    img{
+      width: 120px;
+    }
+    .wrapper-link{
+      color: #666;
+      &:hover{
+        color: primary-color;
+      }
+    }
+    .wrapper-section{
+      flex: 0 0 33.333333%;
+    }
+    .wrapper-about{
+      color: #999;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .footer{
+    .footer-wrapper{
+      display: block;
+      padding-top: 0;
+      .wrapper-section{
+        margin-top: 20px;
+      }
     }
   }
 }

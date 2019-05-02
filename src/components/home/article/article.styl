@@ -1,0 +1,37 @@
+.article-items{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+  .article-item{
+    flex: 0 0 33.333333%;
+    margin-bottom: 30px;
+    padding: 0 15px;
+    .item-card{
+      position: relative;
+      display: block;
+      padding-top: 18%;
+      border: 1px solid #333;
+      &:hover{
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+      }
+      .card-title{
+        margin: 0;
+        padding: 10px 15px;
+        color: #333;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .article-items{
+    .article-item{
+      flex: 0 0 50%;
+    }
+  }
+}
+@media (max-width: 432px) {
+  .article-items{
+    display: block;
+  }
+}

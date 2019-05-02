@@ -34,16 +34,11 @@ exports.createPages = ({ graphql, actions }) => {
     const posts = result.data.allMarkdownRemark.edges
 
     posts.forEach((post, index) => {
-      const previous = index === posts.length - 1 ? null : posts[index + 1].node
-      const next = index === 0 ? null : posts[index - 1].node
-
       createPage({
         path: post.node.fields.slug,
         component: blogPost,
         context: {
-          slug: post.node.fields.slug,
-          previous,
-          next,
+          slug: post.node.fields.slug
         },
       })
     })
@@ -51,13 +46,21 @@ exports.createPages = ({ graphql, actions }) => {
 }
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
-	const { createNodeField } = actions
-	if (node.internal.type === `MarkdownRemark`) {
+  const { createNodeField } = actions
+  if (node.internal.type === `MarkdownRemark`) {
     const slug = createFilePath({ node, getNode })
-		createNodeField({
-			node,
-			name: `slug`,
-			value: slug
+    createNodeField({
+      node,
+      name: `slug`,
+      value: slug
     })
-	}
+  }
+}
+
+exports.onCreateWebpackConfig = ({ stage, actions }) => {
+  actions.setWebpackConfig({
+    resolve: {
+      modules: [path.resolve(__dirname, "src"), "node_modules"]
+    },
+  })
 }

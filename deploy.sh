@@ -10,14 +10,14 @@ yarn build
 cd public
 
 # 如果是发布到自定义域名
-echo 'juuun.io\nwww.juuun.io' > CNAME
+echo 'designsystem.cc\nwww.designsystem.cc' > CNAME
 
 
 git init
 git add -A
 git commit -m '由本地发布'
 
-# 如果发布到 CODING Pages
-git push -f git@github.com:leadream/juuun.io.git master:gh-pages
+# 发布到 Github Pages
+git push -f git@github.com:leadream/designsystem.git master:gh-pages
 
 cd -

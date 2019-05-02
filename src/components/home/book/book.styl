@@ -1,0 +1,36 @@
+.book-items{
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0 -15px;
+  overflow-x: auto;
+  .book-item{
+    flex-shrink: 0;
+    width: 180px;
+    margin-bottom: 30px;
+    padding: 10px 15px;
+    .item-card{
+      position: relative;
+      display: block;
+      .card-cover{
+        margin: 0;
+        padding-top: 150%;
+        color: #333;
+        background-size: cover;
+        background-position: center;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.16);
+        transition: all 0.4s;
+      }
+      .card-title{
+        margin: 0;
+        padding: 10px 0;
+        color: #333;
+        white-space: nowrap;
+      }
+      &:hover{
+        .card-cover{
+          box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+        }
+      }
+    }
+  }
+}

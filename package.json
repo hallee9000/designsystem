@@ -1,7 +1,6 @@
 {
-  "name": "juust",
-  "private": true,
-  "description": "Jun 的作品展示网站",
+  "name": "DesignSystem",
+  "description": "设计系统",
   "version": "0.9.0",
   "license": "MIT",
   "scripts": {
@@ -14,7 +13,7 @@
     "deploy": "./deploy.sh"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "classnames": "^2.2.6",
     "gatsby": "^2.1.31",
     "gatsby-plugin-gtag": "^1.0.10",
     "gatsby-plugin-sharp": "^2.0.30",
@@ -33,9 +32,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:leadream/juuun.io.git"
+    "url": "git@github.com:leadream/designsystem.git"
   },
   "bugs": {
-    "url": "https://github.com/leadream/juuun.io/issues"
+    "url": "https://github.com/leadream/designsystem/issues"
   }
 }

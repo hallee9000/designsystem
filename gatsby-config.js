@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Jun's room`,
+    title: `设计系统`,
     author: `Jun`,
-    description: `我的作品展览馆。`,
-    siteUrl: `https://juuust.com/`,
+    description: `设计系统相关的教程、文章、书籍、案例和工具。`,
+    siteUrl: `https://designsystem.cc/`,
     social: {
       github: `leadream`,
     },
@@ -46,7 +46,7 @@ module.exports = {
       resolve: `gatsby-plugin-gtag`,
       options: {
         // your google analytics tracking id
-        trackingId: `UA-121774282-2`,
+        trackingId: `UA-121774282-3`,
         // Puts tracking script in the head instead of the body
         head: false,
         // enable ip anonymization

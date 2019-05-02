@@ -1,0 +1,67 @@
+@import '~assets/token.styl'
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  background: #FFF;
+  transition: 0.4s transform;
+  z-index: 1000;
+  &-hung{
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    >nav{
+      height: 72px!important;
+      padding: 15px!important;
+    }
+  }
+  >nav{
+    display: flex;
+    position: relative;
+    height: 122px;
+    padding: 40px 15px;
+    a{
+      color: #333;
+      &:hover{
+        color: primary-color;
+      }
+    }
+    .header-logo{
+      width: 78px;
+      img{
+        display: none;
+        height: 42px;
+      }
+      .logo-visible{
+        display: block;
+      }
+    }
+    .header-menus{
+      flex: 1;
+      font-weight: bold;
+      text-align: center;
+      line-height: 42px;
+      a{
+        margin: 0 15px;
+      }
+    }
+    .header-about{
+      width: 78px;
+      text-align: right;
+      font-weight: bold;
+      line-height: 42px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+    >nav{
+      .header-menus{
+        a{
+          display: none;
+        }
+      }
+    }
+  }
+}

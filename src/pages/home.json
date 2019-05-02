@@ -1,0 +1,98 @@
+{
+  "tutorial": {
+    "title": "Tutorial",
+    "brief": "从零开始构建设计系统（来自 InVision DesignBetter）。",
+    "posts": [
+      {
+        "slug": "/tutorial/introducing-design-systems/",
+        "published": true,
+        "title": "设计系统是什么？",
+        "description": "我是国内最早研究使用交互设计工具 framer 的，翻译了 framer 官方文档并编写了大量的教程，还创建了 framer 中文网来帮助设计师学会 code to design。",
+        "cover": "tutorial/introduction.png"
+      }, {
+        "slug": "/tutorial/figmacn/",
+        "published": false,
+        "title": "设计你的设计系统。",
+        "description": "最近迷上了 Figma——一款基于浏览器的在线协作工具。Figma 很多细节做的很棒，用一个朋友的话说，是很懂设计的人为设计师贴心打造的。",
+        "cover": "tutorial/designing.png"
+      }, {
+        "slug": "/tutorial/fxxxcn/",
+        "published": false,
+        "title": "构建你的设计系统。",
+        "description": "最近迷上了 Figma——一款基于浏览器的在线协作工具。Figma 很多细节做的很棒，用一个朋友的话说，是很懂设计的人为设计师贴心打造的。",
+        "cover": "tutorial/building.png"
+      }, {
+        "slug": "/tutorial/what/",
+        "published": false,
+        "title": "实践你的设计系统。",
+        "description": "最近迷上了 Figma——一款基于浏览器的在线协作工具。Figma 很多细节做的很棒，用一个朋友的话说，是很懂设计的人为设计师贴心打造的。",
+        "cover": "tutorial/putting.png"
+      }, {
+        "slug": "/tutorial/how/",
+        "published": false,
+        "title": "扩展你的设计系统。",
+        "description": "最近迷上了 Figma——一款基于浏览器的在线协作工具。Figma 很多细节做的很棒，用一个朋友的话说，是很懂设计的人为设计师贴心打造的。",
+        "cover": "tutorial/expanding.png"
+      }
+    ]
+  },
+  "article": {
+    "title": "Article",
+    "brief": "设计系统相关文章。",
+    "posts": [
+      {
+        "slug": "/article/github-design-system/",
+        "title": "Github 的设计系统是如何进化的？"
+      }, {
+        "slug": "/article/invisible-design-tool/",
+        "title": "看不见的设计工具"
+      }, {
+        "slug": "/article/designops-at-airbnb/",
+        "title": "DesignOps at Airbnb"
+      }
+    ]
+  },
+  "book": {
+    "title": "Book",
+    "brief": "设计系统相关的书籍。",
+    "posts": [
+      {
+        "slug": "/book/designing-interfaces/",
+        "title": "Designing Interfaces",
+        "description": "这本书总结了 Web、Mobile 设计中常见的设计模式和解决方案，并给出了示例。另外，该书每一章还讲述了交互设计和视觉设计中的各个关键概念。",
+        "cover": "book/designing-interfaces.jpg"
+      }, {
+        "slug": "/book/atomic-design/",
+        "link": "http://atomicdesign.bradfrost.com/",
+        "title": "Atomic Design",
+        "description": "前端工程师 Brad Forst 将化学中的原子概念运用到界面设计中。",
+        "cover": "book/atomic-design.jpg"
+      }, {
+        "slug": "/book/design-systems/",
+        "link": "https://www.smashingmagazine.com/design-systems-book",
+        "title": "Design Systems",
+        "description": "最近迷上了 Figma——一款基于浏览器的在线协作工具。Figma 很多细节做的很棒，用一个朋友的话说，是很懂设计的人为设计师贴心打造的。",
+        "cover": "book/design-systems.jpg"
+      }
+    ]
+  },
+  "casePosts": {
+    "title": "Case",
+    "brief": "经典的设计系统案例。",
+    "posts": [
+      {
+        "link": "https://primer.style/",
+        "title": "Github Primer",
+        "cover": "primer.png"
+      }, {
+        "link": "https://lightningdesignsystem.com/",
+        "title": "Salesforce Lightning",
+        "cover": "lightning.png"
+      }, {
+        "link": "https://ant.design/",
+        "title": "Alibaba Antd",
+        "cover": "antd.png"
+      }
+    ]
+  }
+}
