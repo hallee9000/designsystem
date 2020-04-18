@@ -42,10 +42,10 @@ export default class extends React.Component {
             <img src={logoText} alt="logo text" className={cn({'logo-visible': !hung})}/>
           </Link>
           <div className="header-menus">
-            <Link to="#home-tutorial" rel="tutorial">TTORIAL</Link>
-            <Link to="#home-article" rel="article">ARTICLE</Link>
-            <Link to="#home-book" rel="book">BOOK</Link>
-            <Link to="#home-case" rel="case">CASE</Link>
+            <a href="#home-tutorial" rel="tutorial">TUTORIAL</a>
+            <a href="#home-article" rel="article">ARTICLE</a>
+            <a href="#home-book" rel="book">BOOK</a>
+            <a href="#home-case" rel="case">CASE</a>
           </div>
           <div className="header-about">
             <Link to="/about" rel="about">ABOUT</Link>

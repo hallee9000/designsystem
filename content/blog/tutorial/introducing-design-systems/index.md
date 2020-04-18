@@ -1,15 +1,17 @@
 ---
 title: 设计系统是什么？
 date: "2015-06-28T22:40:32.169Z"
-description: 最近迷上了 Figma——一款基于浏览器的在线协作工具。Figma 很多细节做的很棒，用一个朋友的话说，是很懂设计的人为设计师贴心打造的。
+description: 设计系统让团队理解并使用一种统一的设计语言。
 author: Marco Suarez
 translator: Juuun
-sourceLink: https://figmacn.com
+sourceLink: https://www.designbetter.co/design-systems-handbook/introducing-design-systems
 ---
+
+原文首发于公众号 Codesigner：https://mp.weixin.qq.com/s/AsDsCx_w1W6lLw77a4I35Q
 
 >设计系统让团队理解并使用一种统一的设计语言。他可以减少你的设计负债，加速设计流程，连接产品设计和开发实现之间的鸿沟。学习如何构建设计系统可以帮助你提升产品体验，减少设计负债。这是来自于 InVision DesignBetter 站点的一系列设计系统相关的文章，我准备连载翻译，希望能帮助更多人理解并运用设计系统。
 
-在 19 世纪六十年代，计算机技术的发展速度远远超过了软件研发的速度。电脑变得更快更便宜了，而软件研发却仍旧十分缓慢，且很难维护，漏洞百出。这种差距，以及该如何应对的窘境，被称为“[软件危机](https://en.wikipedia.org/wiki/Software_crisis)”。
+在 1960 年代，计算机技术的发展速度远远超过了软件研发的速度。电脑变得更快更便宜了，而软件研发却仍旧十分缓慢，且很难维护，漏洞百出。这种差距，以及该如何应对的窘境，被称为“[软件危机](https://en.wikipedia.org/wiki/Software_crisis)”。
 
 在 1968 年，[NATO 软件工程会议](http://homepages.cs.ncl.ac.uk/brian.randell/NATO/nato1968.PDF)上，Douglas McIlroy 提出了组件式开发的解决思路。组件式开发通过代码重用来提高软件编程的潜能，使其更加高效并且易于扩展。这大大降低了软件研发的所需的人力，并且提高了研发速度，使得软件可以更充分地利用计算机的能力。
 

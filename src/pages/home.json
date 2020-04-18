@@ -7,31 +7,26 @@
         "slug": "/tutorial/introducing-design-systems/",
         "published": true,
         "title": "设计系统是什么？",
-        "description": "我是国内最早研究使用交互设计工具 framer 的，翻译了 framer 官方文档并编写了大量的教程，还创建了 framer 中文网来帮助设计师学会 code to design。",
         "cover": "tutorial/introduction.png"
       }, {
-        "slug": "/tutorial/figmacn/",
-        "published": false,
+        "slug": "/tutorial/designing-design-system/",
+        "published": true,
         "title": "设计你的设计系统。",
-        "description": "最近迷上了 Figma——一款基于浏览器的在线协作工具。Figma 很多细节做的很棒，用一个朋友的话说，是很懂设计的人为设计师贴心打造的。",
         "cover": "tutorial/designing.png"
       }, {
         "slug": "/tutorial/fxxxcn/",
         "published": false,
         "title": "构建你的设计系统。",
-        "description": "最近迷上了 Figma——一款基于浏览器的在线协作工具。Figma 很多细节做的很棒，用一个朋友的话说，是很懂设计的人为设计师贴心打造的。",
         "cover": "tutorial/building.png"
       }, {
         "slug": "/tutorial/what/",
         "published": false,
         "title": "实践你的设计系统。",
-        "description": "最近迷上了 Figma——一款基于浏览器的在线协作工具。Figma 很多细节做的很棒，用一个朋友的话说，是很懂设计的人为设计师贴心打造的。",
         "cover": "tutorial/putting.png"
       }, {
         "slug": "/tutorial/how/",
         "published": false,
         "title": "扩展你的设计系统。",
-        "description": "最近迷上了 Figma——一款基于浏览器的在线协作工具。Figma 很多细节做的很棒，用一个朋友的话说，是很懂设计的人为设计师贴心打造的。",
         "cover": "tutorial/expanding.png"
       }
     ]
@@ -71,7 +66,6 @@
         "slug": "/book/design-systems/",
         "link": "https://www.smashingmagazine.com/design-systems-book",
         "title": "Design Systems",
-        "description": "最近迷上了 Figma——一款基于浏览器的在线协作工具。Figma 很多细节做的很棒，用一个朋友的话说，是很懂设计的人为设计师贴心打造的。",
         "cover": "book/design-systems.jpg"
       }
     ]
@@ -92,6 +86,66 @@
         "link": "https://ant.design/",
         "title": "Alibaba Antd",
         "cover": "antd.png"
+      }, {
+        "link": "https://baseweb.design/",
+        "title": "Uber Base Web",
+        "cover": "uber-base.png"
+      }, {
+        "link": "https://polaris.shopify.com/",
+        "title": "Shopify Polaris",
+        "cover": "shopify.jpg"
+      }, {
+        "link": "https://atlassian.design/",
+        "title": "Atlassian Design",
+        "cover": "atlassian.jpg"
+      }, {
+        "link": "https://www.carbondesignsystem.com/",
+        "title": "IBM Carbon Design System",
+        "cover": "ibm.jpg"
+      }, {
+        "link": "https://design.workday.com/",
+        "title": "Workday Canvas Design System",
+        "cover": "workday.jpg"
+      }, {
+        "link": "https://atomizecode.com/",
+        "title": "Atomize React",
+        "cover": "atomize.jpg"
+      }, {
+        "link": "https://design.teambition.com/",
+        "title": "Teambition Clarity Design",
+        "cover": "clarity.png"
+      }, {
+        "link": "https://thumbprint.design/",
+        "title": "Thumbprint of Thumbtack",
+        "cover": "thumbprint.png"
+      }, {
+        "link": "https://design.youzan.com/index.html",
+        "title": "Zan Design System",
+        "cover": "zandesign.png"
+      }, {
+        "link": "https://material.io/design",
+        "title": "Google Material Design",
+        "cover": "material.png"
+      }, {
+        "link": "https://element.eleme.cn/",
+        "title": "Eleme Element Design",
+        "cover": "element.png"
+      }, {
+        "link": "https://spectrum.adobe.com/",
+        "title": "Adobe Spectrum",
+        "cover": "spectrum.jpg"
+      }, {
+        "link": "https://www.duetds.com/",
+        "title": "Duet Design System",
+        "cover": "duetds.png"
+      }, {
+        "link": "https://designsystem.morningstar.com/",
+        "title": "Morningstar Design System",
+        "cover": "morningstar.png"
+      }, {
+        "link": "https://rangle.io/radius/",
+        "title": "Rangle Radius",
+        "cover": "rangle-radius.png"
       }
     ]
   }

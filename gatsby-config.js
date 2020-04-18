@@ -9,6 +9,7 @@ module.exports = {
     },
   },
   plugins: [
+    'gatsby-plugin-sharp',
     'gatsby-plugin-stylus',
     {
       resolve: `gatsby-transformer-remark`,
